@@ -1,0 +1,75 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.first,
+.second,
+.third,
+.fourth {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+.image_1,
+.image_2,
+.image_3,
+.image_4 {
+  height: 400px;
+  flex: 1 1 400px;
+  /*box-sizing: border-box;*/
+  background-size: 50% auto;
+}
+.image_1 {
+  background: url(../img/snow.png) rgba(106, 209, 85, 0.493) center/cover
+    no-repeat;
+}
+.image_2 {
+  background: url(../img/billiard.png) rgba(78, 160, 180, 0.493) center/cover
+    no-repeat;
+  background-size: 80% auto;
+}
+.image_3 {
+  background: url(../img/alco.png) rgba(106, 209, 85, 0.493) center/cover
+    no-repeat;
+  background-size: 80% auto;
+}
+.image_4 {
+  background: url(../img/cod.png) rgba(78, 160, 180, 0.493) center/cover
+    no-repeat;
+  background-size: 30% auto;
+}
+.text_1 {
+  flex: 1 1 400px;
+}
+.second,
+.fourth {
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+}
+.snow,
+.snow_text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #202124;
+  margin: 20px;
+}
+.header {
+  text-align: center;
+  padding: 50px;
+}
+.header > h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #202124;
+  font-size: 60px;
+  font-style: normal;
+}
+.snow_billiard,
+.snow_it {
+  text-align: right;
+}
+.snow_text {
+  font-size: 24px;
+}
